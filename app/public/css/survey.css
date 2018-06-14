@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed');
+
+.btn-primary {
+    background: #344454;
+}
+
+.btn-primary:hover {
+    background-color: #66668A;
+}
+
+h1, h2, h4 {
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed');
+
 .container {
     position: relative;
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
@@ -9,4 +11,21 @@
     top: 50%;
     transform: translateY(-60%);
     width: 100%;
+    background: #BCCBE0;
+}
+
+.btn-primary {
+    background: #344454;
+}
+
+.btn-primary:hover {
+    background-color: #66668A;
+}
+
+h1, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto+Condensed', sans-serif;
 }

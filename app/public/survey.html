@@ -24,7 +24,8 @@
     <!-- Handlebars -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
 
-    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/public/css/survey.css">    
 
     <title>Coding Friends Survey</title>
 </head>
@@ -88,7 +89,7 @@
         <h4>{{text}}</h4>
         <div class="form-group" style="width: 20%">
             <select class="form-control" id="sel{{number}}" required>
-                <option class="disabled">Choose an option...</option>
+                <option selected="true" disabled="disabled">Choose an option...</option>
                 <option value="5">5 ({{top}})</option>
                 <option value="4">4</option>
                 <option value="3">3</option>
