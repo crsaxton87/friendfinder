@@ -134,7 +134,7 @@
                         // Place match data in modal
                         $("#match-name").text("Name: " + data.name);
                         $("#match-location").text("Location: " + data.location);
-                        $("#match-github").text("GitHub: " + data.github);
+                        $("#match-github").html('GitHub&#58; <a href="https://github.com/' + data.github +'/" target="blank">' + data.github + '</a>');
 
                         // Show modal
                         $("#results-modal").modal("toggle");
