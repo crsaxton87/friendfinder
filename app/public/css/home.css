@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+
+}
+.jumbotron {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    width: 100%;
+}
